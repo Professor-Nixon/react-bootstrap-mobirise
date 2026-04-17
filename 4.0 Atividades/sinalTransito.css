@@ -1,0 +1,38 @@
+body {
+  height: 100vh;              /* Ocupa a tela toda */
+  display: flex;
+  justify-content: center;    /* Centraliza na horizontal */
+  align-items: center;        /* Centraliza na vertical */
+  margin: 0;
+}
+
+.semaforo{
+    width: 170px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto; /*Centraliza na horizontal*/
+    margin-top: 10px;
+    height: 50%;
+    border-radius: 15%;
+    background-color: rgb(40, 39, 39);
+}
+
+#corVerde, 
+#corAmarelo, 
+#corVermelho {
+    padding: 15px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:solid black 10px;
+    text-align: center;
+    display:flex; /*Centralizando o texto*/
+    justify-content: center;  /* centraliza texto horizontal */
+    align-items: center;  /* centraliza texto vertical */
+}
+
+option{
+    text-align: center;
+}
+
