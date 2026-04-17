@@ -30,6 +30,7 @@ body {
     display:flex; /*Centralizando o texto*/
     justify-content: center;  /* centraliza texto horizontal */
     align-items: center;  /* centraliza texto vertical */
+    transition: background-color 0.4s ease, transform 0.3s ease;
 }
 
 option{
