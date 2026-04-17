@@ -1,0 +1,14 @@
+body {
+  margin: 5px;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#result {
+  padding: 12px;
+  margin: 5px;
+  background-color: lightgray;
+}
