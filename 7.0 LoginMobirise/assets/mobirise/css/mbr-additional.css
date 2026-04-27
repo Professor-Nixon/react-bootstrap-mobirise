@@ -593,7 +593,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-color: #a0e2e1;
 }
 .alert-danger {
-  background-color: #ffffff;
+  background-color: #e52e2e;
 }
 .mbr-section-btn .btn:not(.btn-form) {
   border-radius: 100px;
