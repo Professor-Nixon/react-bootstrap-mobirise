@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculos</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Calcular operadores:</h1>
+        <div class="input-group mb-3">
+          <!-- <span class="input-group-text">R$</span> -->
+          <input
+            id="num1"
+            type="text"
+            class="form-control"
+            aria-label="Valor numérico"
+          />
+          <!-- <span class="input-group-text">.00</span> -->
+        </div>
+        <div class="input-group mb-3">
+          <!-- <span class="input-group-text">R$</span> -->
+          <input
+            id="num2"
+            type="text"
+            class="form-control"
+            aria-label="Valor numérico"
+          />
+          <!-- <span class="input-group-text">.00</span> -->
+        </div>
+
+        <select id="op" class="form-select" aria-label="Default select example">
+          <option selected>Selecione operador</option>
+          <option value="+">ADIÇÃO</option>
+          <option value="-">SUBTRAÇÃO</option>
+          <option value="*">MULTIPLICAÇÃO</option>
+          <option value="/">DIVISÃO</option>
+          <option value="%">RESTO DIVISÃO</option>
+          <option value="**">POTÊNCIA</option>
+        </select>
+        <br />
+        <button
+          id="calculo"
+          onclick="calc()"
+          type="button"
+          class="btn btn-primary"
+        >
+          Calcular
+        </button>
+        <button type="reset" class="btn btn-success">Limpar</button>
+      </form>
+      <br />
+      <div id="result">Resultado:</div>
+    </div>
+
+    <script src="calc.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
